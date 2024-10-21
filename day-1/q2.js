@@ -13,7 +13,7 @@ for (let n = 0; n < a.length; n++) {
         if (max < a[n]) {
                 max = a[n]
         }
-}
+} 
 
 console.log(max);
 
