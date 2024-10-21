@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let arr = [9, 7, 3, 8, 1, 5, 2];
 
 for (let a = 0; a < arr.length - 1; a++) {
@@ -22,3 +23,6 @@ for (let a = 0; a < arr.length - 1; a++) {
 }
 
 console.log(arr);
+=======
+let arr = [9, 7, 3, 8, 1, 5, 2];
+>>>>>>> origin/master
