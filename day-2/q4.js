@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let arr = [-3, -1, -4, 2, 0, -2, 5];
 
 
@@ -23,6 +22,3 @@ for (let a = 0; a < arr.length; a++) {
 }
 
 console.log(arr);
-=======
-let a = [-3, -1, -4, 2, 0, -2, 5];
->>>>>>> origin/master
