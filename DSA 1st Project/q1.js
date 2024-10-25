@@ -9,7 +9,7 @@ let sum = 0
 for (let a = 0; a < arr.length; a++) {
 
         for (let b = 0; b < arr[a].length; b++) {
-                if (arr[a] == arr[b]) {
+                if (a == b) {
                         sum += arr[a][b]
                 }
         }
