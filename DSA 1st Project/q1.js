@@ -3,17 +3,11 @@ let arr = [
         [5, 6, 7],
         [8, 9, 1]
 ]
-
+let a, b
 let sum = 0
 
-for (let a = 0; a < arr.length; a++) {
-
-        for (let b = 0; b < arr[a].length; b++) {
-                if (a == b) {
-                        sum += arr[a][b]
-                }
-        }
-
+for (a = 0, b = 0; a < arr.length; a++, b++) {
+        sum += arr[a][b]
 }
 
 console.log(sum);
