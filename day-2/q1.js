@@ -1,4 +1,4 @@
-let arr = [53, 2, 1254, 4, 5, 6];
+let arr = [53, 2, 1254, 4, 5, 6, 1];
 
 for (let a = 0; a < arr.length - 1; a++) {
   let minI = a;
