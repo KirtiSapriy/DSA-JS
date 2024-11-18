@@ -7,7 +7,7 @@ for (let a = 0; a < arr.length - 1; a++) {
         let minI = a;
 
         for (let b = a + 1; b < arr.length; b++) {
-                if (arr[b] < arr[a]) {
+                if (arr[b] < arr[minI]) {
                         minI = b
                 }
         }
