@@ -1,3 +1,4 @@
+
 class NODE {
 
         constructor(d) {
@@ -33,43 +34,28 @@ class SLL {
 
 }
 
-let a = new SLL()
+let head = new SLL()
 
-a.append(10);
-a.append(20);
-a.append(30);
-a.append(40);
+head.append(10);
+head.append(20);
+head.append(30);
+head.append(40);
 
-
-
-
-console.log(a);
-
-let rev = reverse(a)
-
-console.log(rev);
+console.log(head);
 
 
-// console.log(a.h);
+var middleNode = function (head) {
 
+        let fas = head;
+        let slov = head;
 
-
-function reverse(head) {
-
-        let next = null;
-        let prev = null;
-        let c = head;
-
-        while (c != null) {
-                next = c.next;
-                c.next = prev;
-                prev = c;
-                c = next;
-
+        while (fas != null && fas.next != null) {
+                fas.next.next;
+                slov.next;
         }
 
-        return prev;
+        return slov
 
-}
+};
 
-
+console.log();

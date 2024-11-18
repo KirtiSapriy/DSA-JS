@@ -1,7 +1,7 @@
 
 // Move all zero End of the Array
 
-let arr = [0, 1, 0, 1, 0, 1, 0, 1, 0];
+let arr = [0, 1,0,8,7, 0, 1, 0, 1, 0, 1, 0];
 // output = [1,1,1,1,0,0,0,0,0]
 
 for (let a = 0; a < arr.length; a++) {
