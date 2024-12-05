@@ -9,9 +9,8 @@ function findIntersection() {
                 if (set.has(el)) {
                         ans.push(el)
                 }
-                else {
-                        set.add(el)
-                }
+                set.add(el)
+
         }
 
         return ans
