@@ -4,8 +4,10 @@ let a = []
 
 const MySet = new Set(arr)
 
-for (let val of MySet) {
-        a.push(val)
-}
+// for (let val of MySet) {
+//         a.push(val)
+// }
+console.log(MySet);
+
 
 console.log(a);

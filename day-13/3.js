@@ -3,15 +3,15 @@
 
 function findeUnion(arr1, arr2) {
 
-        let set = new Set()
-
-        for (val of arr1) {
-                set.add(val)
-        }
+        let set = new Set(arr1)
+        let a = []
         for (val of arr2) {
                 set.add(val)
         }
-        return set
+        for (val of set) {
+                a.push(val)
+        }
+        return a
 
 }
 
